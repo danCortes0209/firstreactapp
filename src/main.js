@@ -4,7 +4,7 @@ import Body from './components/body.js';
  
 document.addEventListener('DOMContentLoaded', function() {
   	ReactDOM.render(
-   		React.createElement(Body, null, null),
+   		<Body />,
     	document.getElementById('mount')
   	);
 }); 

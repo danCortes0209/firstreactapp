@@ -3,9 +3,9 @@ import React from 'react';
 export default class Body extends React.Component {
 	render () {
 		return [
-			React.createElement('section', {className: "main"}, 'Hello'),
-			React.createElement('section', {className: "about"}, 'About'),
-			React.createElement('section', {className: "contact"}, 'Contact')
+			<section className="main" id="main">Hello</section>,
+			<section className="about" id="about">About</section>,
+			<section className="contact" id="contact">Contact</section>
 		];	
 	}
 }

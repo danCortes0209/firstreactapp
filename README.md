@@ -3,25 +3,8 @@ My Project
  
 Welcome.
 
-I couldn't get it to ork with JSX, IDK why :(
 
-```
-return () {
-	render (
-		<h1>Hello world</h1>
-	);
-}
-```
-This doesn't works
-
-```
-return() {
-	render (
-		React.createElement('h1', null, 'Hello')
-	);
-}
-```
-But this works... I don't know why
+I got it to work with JSX :D i forgot the .babelrc file LOL. Now im happy :D now the only thing i need is to know is how to use static images, and a backend language :D
 
 
 
